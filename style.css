@@ -335,7 +335,7 @@ nav {
 .projeto-card {
   background: rgba(25, 25, 29, 0.664);
   border-radius: 16px;
-  padding: 24px 16px;
+  padding: 16px 16px;
   width: 320px;
   display: flex;
   flex-direction: column;
@@ -364,6 +364,7 @@ nav {
   margin: 0;
   color: #fff;
   line-height: 1.6;
+  padding: 2px;
 }
 
 .separador {
@@ -534,7 +535,7 @@ footer {
   .projeto-card {
     width: 98vw;
     max-width: 340px;
-    padding: 14px 6px;
+    padding: 8px 8px;
   }
 
   .contatos {
