@@ -338,10 +338,13 @@ nav {
   border-radius: 16px;
   padding: 0px 0px 16px 0px;
   width: 320px;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   transition: transform 0.2s ease-in-out;
+  text-decoration: none;
+  color: inherit;
 }
 
 .projeto-card:hover {
@@ -356,19 +359,30 @@ nav {
   margin-bottom: 5px;
 }
 
-.projeto-link{
-  text-decoration: none;
-  color: inherit;
-}
-
-.projeto-card p {
+.projeto-card a {
   text-align: center;
   font-size: 0.8rem;
   font-weight: 300;
   margin: 0;
   color: #fff;
   line-height: 1.6;
-  padding: 2px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.projeto-card h3 {
+  color: var(--verde);
+}
+
+.projeto-card p{
+  padding: 0px 16px;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin: 0;
+  color: #fff;
+  line-height: 1.6;
+
 }
 
 .separador {
